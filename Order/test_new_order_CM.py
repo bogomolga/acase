@@ -3,10 +3,12 @@ import json
 import pytest 
 
 # Шаги:
-# 1. Создать заказ ApiAcase: гостиница Звездная, РЗ/ПВ, Покупатель: ГЕОГРАФИЧЕСКИЙ КЛУБ /АОН
-# 2. Получение информации о заказе
-# 3. Бронирование по заказу ApiAcase
-# 4. Проверка статуса заказа в БД
+# 1. Запускать командой: pytest .\Order\test_new_order_CM.py
+# 2. loadList = json.loads(body)  - на этой строке ошибка: the JSON object must be str, bytes or bytearray, not dict
+# 3. Надо разбираться, почему в pytest падает там, где не падает в Питоне  !!!
+# Как падает можно посмотреть в примере new_order_CM.py
+
+# При  работе с БД, ошибка: не находит DLL
 
 main_url = "http://10.0.0.129:8130/bora/"
 json_headers = {
@@ -60,7 +62,11 @@ def test_create_new_order():
     url = main_url + "rest"
     create_order = './files/OrderRequest-real1.json'
     body = load_json(create_order)
+    
     print(type(body))
     
+    # loadList = json.loads(body)  - на этой строке ошибка: the JSON object must be str, bytes or bytearray, not dict
+    # body - это строка
+        
     assert True
     
