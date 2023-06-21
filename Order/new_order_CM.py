@@ -62,7 +62,7 @@ def getOrderInfo(r):
 def test_create_new_order():
     # 1. Создать заказ ApiAcase: гостиница Звездная, РЗ/ПВ, Покупатель: ГЕОГРАФИЧЕСКИЙ КЛУБ /АОН
     url = main_url + "rest"
-    create_order = './xml/OrderRequest-real1.json'
+    create_order = './files/OrderRequest-real1.json'
     body = load_json(create_order)
     loadList = json.loads(body)
     r = requests.post(url, headers=json_headers, json=loadList, verify=False) 
@@ -79,7 +79,7 @@ def test_create_new_order():
 
     # 3. Бронирование по заказу ApiAcase
     url = main_url + "integration/ApiAcase"
-    set_65 = './xml/ApiAcase_65.json'
+    set_65 = './files/ApiAcase_65.json'
     body = load_json(set_65)
     loadList = json.loads(body)
     r = requests.post(url, headers=json_headers, json=loadList, verify=False)

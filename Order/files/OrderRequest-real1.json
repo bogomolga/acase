@@ -1,0 +1,568 @@
+{
+  "OrderRequest": {
+    "UserNotificationList": {
+      "Count": 0
+    },
+    "Payer": {
+      "PayerType": {
+        "Code": 3,
+        "Name": "Юридическое лицо",
+        "AllowChangeCode": 1,
+        "AllowChangePayerType": ""
+      },
+      "AllowChangePayer": {
+        "Code": 1,
+        "Name": ""
+      },
+      "IsChanged": {
+        "Code": 2,
+        "Name": "Нет"
+      },
+      "Company": {
+        "Code": 1350275,
+        "Name": "ГЕОГРАФИЧЕСКИЙ КЛУБ /АОН",
+        "FullName": "ООО 'ГЕОГРАФИЧЕСКИЙ КЛУБ'"
+      },
+      "City": {
+        "Code": 2,
+        "Name": "Москва"
+      },
+      "Country": {
+        "Code": 9,
+        "Name": "Россия"
+      },
+      "Contact": {
+        "Family": "ХРЕНОВА ЛАРИСА",
+        "Phone": "",
+        "Fax": "",
+        "Email": "env009_01@dev.acase.ru"
+      },
+      "Contract": {
+        "Code": 1350276,
+        "Number": "0216/21",
+        "Date": "21.05.2021",
+        "PartnerContractCode": 1,
+        "PartnerContractName": "Прямой",
+        "TypeContractCode": 2,
+        "TypeContractName": "Купли-продажи",
+        "AutonomCode": 1,
+        "AutonomName": "Автономный",
+        "VatLimitCode": 1,
+        "VatLimitName": "Без ограничений"
+      },
+      "AdditionalEmailList": "",
+      "INN": 7706156115,
+      "KPP": 770601001,
+      "Address": "Б.Якиманка, 39/20, стр.1",
+      "ZipCode": 103031
+    },
+    "AccountDetails": {
+      "InvoiceSumRule": {
+        "Code": 2,
+        "Name": "Сумма без комиссии"
+      },
+      "InvoiceTemplate": {
+        "Code": 2,
+        "Name": "Стандартный счет",
+        "Language": "ru"
+      },
+      "IncludeAutorisationForm": {
+        "Code": 2,
+        "Name": "Нет"
+      },
+      "IncludeBankDetails": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "BankAccount": {
+        "Code": 1523807,
+        "Name": "ООО 'АКАДЕМ-ОНЛАЙН'-Юникредит",
+        "Text": "ООО 'АКАДЕМ-ОНЛАЙН', ИНН 5024130424, КПП 502401001, р/сч 40702810220010008591 в АО ЮНИКРЕДИТ БАНК, 119034, г.Москва, Пречистенская наб., д.9, корр/сч 30101810300000000545,БИК 044525545"
+      },
+      "ShowMeal": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "ShowEarlyCheckIn": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "ShowLateCheckOut": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "ShowVat": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "ShowTravelAgency": {
+        "Code": 2,
+        "Name": "Нет"
+      },
+      "ShowSummit": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "ShowBnumDate": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "ShowRoom": {
+        "Code": 1,
+        "Name": "Да",
+        "Text": ""
+      },
+      "ShowRoute": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "ShowConfirmDriver": {
+        "Code": 2,
+        "Name": "Нет"
+      },
+      "ShowConfirmCar": {
+        "Code": 2,
+        "Name": "Нет"
+      },
+      "ShowConfirmRoom": {
+        "Code": 1,
+        "Name": "Да",
+        "Text": ""
+      },
+      "ShowVoucherDriver": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "ShowVoucherCar": {
+        "Code": 1,
+        "Name": "Да"
+      },
+      "ShowVoucherCancel": {
+        "Code": 2,
+        "Name": "Нет"
+      },
+      "IsGain": {
+        "Code": 3,
+        "Name": "-",
+        "AllowSetGain": 3,
+        "DefaultIsGain": 3
+      },
+      "InvoiceBilling": {
+        "Code": 2,
+        "Name": "По текущей дате"
+      },
+      "InvoiceAddText": "Настоящий счет является подтверждением приема заказа на бронирование. Подтверждение бронирования возможно только после оплаты данного счета при наличии мест. При безналичной оплате ссылка на номер заказа в платежном поручении ОБЯЗАТЕЛЬНА. Гостиница может взимать регистрационный сбор с иностранных граждан  или депозит за дополнительные услуги на свое усмотрение."
+    },
+    "FinancialCondition": {
+      "Code": 1,
+      "Name": ""
+    },
+    "Currency": {
+      "Code": 2,
+      "Name": "RUB"
+    },
+    "Market": {
+      "Code": 11,
+      "Name": "A C S"
+    },
+    "LegalEntity": {
+      "Code": 28,
+      "Name": "ООО 'АКАДЕМ-ОНЛАЙН'"
+    },
+    "WhereToPay": {
+      "Code": 3,
+      "Name": "Безналичная оплата"
+    },
+    "SourceOfBusiness": {
+      "Code": 8,
+      "Name": "ИНТЕРНЕТ",
+      "AllowChangeCode": 1
+    },
+    "Event": {
+      "Code": 9500001,
+      "Name": "",
+      "AllowChangeCode": 2
+    },
+    "TypeContract": {
+      "Code": 2,
+      "Name": "Купли-продажи"
+    },
+    "Customer": {
+      "AllowModify": {
+        "Code": 2
+      },
+      "Code": 9500001,
+      "Name": "Отсутствует"
+    },
+    "PaymentControl": {
+      "Code": 2,
+      "Name": "Нет",
+      "Date": ""
+    },
+    "TourGroup": {
+      "Country": {
+        "Code": 1,
+        "Name": ""
+      },
+      "Code": 1,
+      "Name": ""
+    },
+    "PurposeOfVisit": {
+      "Code": 2,
+      "Name": "Туризм"
+    },
+    "Country": {
+      "Code": 1,
+      "Name": ""
+    },
+    "Status": {
+      "Code": "",
+      "Name": ""
+    },
+    "Autonom": {
+      "Code": 1,
+      "Name": "Автономный"
+    },
+    "VatLimit": {
+      "Code": 1,
+      "Name": "Без ограничений"
+    },
+    "ContactPerson": {
+      "Code": "",
+      "Name": "",
+      "Phone": "",
+      "Fax": "",
+      "Email": ""
+    },
+    "BuyerImplant": "",
+    "AccommodationList": {
+      "Accommodation": {
+        "Country": {
+          "Code": 9,
+          "Name": "Россия",
+          "IsDirect": 1
+        },
+        "City": {
+          "Code": 2,
+          "Name": "Москва"
+        },
+        "AdmUnit1": {
+          "Code": 48,
+          "Name": "Москва"
+        },
+        "AdmUnit2": {
+          "Code": 1,
+          "Name": "Не определено"
+        },
+        "TypeOfPlace": {
+          "Code": 2,
+          "Name": "Город"
+        },
+        "ObjType": {
+          "Code": 2,
+          "Name": "Гостиница",
+          "NameWhere": "гостинице"
+        },
+        "ToBeCancelled": {
+          "Code": 2,
+          "Name": "Нет"
+        },
+        "ToBeChanged": {
+          "Code": 1,
+          "Name": "Да"
+        },
+        "Hotel": {
+          "Code": 400031,
+          "Name": "Звездная"
+        },
+        "Status": {
+          "Code": 1,
+          "Name": "В работе"
+        },
+        "AmendmentRejected": {
+          "Code": 2,
+          "Name": "Нет"
+        },
+        "AllowCancel": {
+          "Code": 1,
+          "Name": "Да"
+        },
+        "AllowModify": {
+          "Code": 1,
+          "Name": "Да"
+        },
+        "IsClosedFinancialPeriod": {
+          "Code": 2,
+          "Name": "Нет"
+        },
+        "IsExcluded": {
+          "Code": 2,
+          "Name": "Нет"
+        },
+        "Product": {
+          "Allotment": {
+            "Code": "void",
+            "Name": ""
+          },
+          "DiscountOffer": {
+            "Code": 1,
+            "Name": "Специальное предложение"
+          },
+          "Code": 1452570,
+          "RoomName": "ОДНОКОМНАТНЫЙ ОДНОМЕСТНЫЙ",
+          "RateName": "ВЫГОДНОЕ ПРЕДЛОЖЕНИЕ БЕЗ ЗАВТРАКА"
+        },
+        "Meal": {
+          "Code": 0,
+          "Name": "",
+          "IncludedInRate": 2,
+          "MealIncludedInExtraBedAdult": 2,
+          "MealIncludedInExtraBedChild": 2,
+          "MealIncludedInExtraBedInfant": 2
+        },
+        "CriticalEarlyCheckIn": {
+          "Code": 1
+        },
+        "CriticalLateCheckOut": {
+          "Code": 1
+        },
+        "IsEarlyCheckIn": {
+          "Code": 1
+        },
+        "IsLateCheckOut": {
+          "Code": 1
+        },
+        "EarlyCheckInConfirmationStatus": {
+          "Code": 2
+        },
+        "LateCheckOutConfirmationStatus": {
+          "Code": 2
+        },
+        "IsHour": {
+          "Code": 2
+        },
+        "Persons": {
+          "Person": {
+            "Category": {
+              "Code": 99,
+              "Name": " "
+            },
+            "Citizenship": {
+              "Code": 0,
+              "Name": " "
+            },
+            "VIPStatus": {
+              "Code": "",
+              "NameShort": " "
+            },
+            "LastName": "Автотест",
+            "FirstName": "",
+            "Company": "",
+            "Position": ""
+          }
+        },
+        "ExtraMeals": "",
+        "Penalties": "",
+        "PenaltyRuleList": {
+          "PenaltyRule": [
+            {
+              "PenaltySize": 15695,
+              "DeadlineTimeLoc": "18.05.2023 00:00",
+              "DeadlineTimeUTC": "17.05.2023 21:00",
+              "RuleCode": 19373,
+              "FeeCode": 528948591,
+              "HoursFrom": 24,
+              "HoursTo": 1139,
+              "Value": 80,
+              "ValueCurrencyCode": 1,
+              "CalculationRuleCode": 11,
+              "CalculationRuleName": "% от полной стоимости"
+            },
+            {
+              "PenaltySize": 19619,
+              "DeadlineTimeLoc": "03.07.2023 11:00",
+              "DeadlineTimeUTC": "03.07.2023 08:00",
+              "RuleCode": 19373,
+              "FeeCode": 528948591,
+              "HoursFrom": 0,
+              "HoursTo": 24,
+              "Value": 100,
+              "ValueCurrencyCode": 1,
+              "CalculationRuleCode": 11,
+              "CalculationRuleName": "% от полной стоимости"
+            }
+          ]
+        },
+        "WhereToPay": {
+          "Guarantee": {
+            "Code": 6,
+            "Name": "Оплата в УК"
+          },
+          "Code": 3,
+          "Name": "Безналичная оплата"
+        },
+        "AllowPriceChanged": {
+          "Code": 1,
+          "Name": "Да",
+          "Action": "changeplan"
+        },
+        "DateOnInvoice": {
+          "Code": 1,
+          "Name": "Плановые"
+        },
+        "NeedCheckPrice": {
+          "Code": 2,
+          "Name": "Нет"
+        },
+        "PriceChanged": {
+          "Plan": {
+            "PenaltyRule": {
+              "DeadlineTimeLocFromSupplier": "12:00",
+              "DeadlineDateLocFromSupplier": "03.07.2023",
+              "PossiblePenaltySizeFromSupplier": 19619,
+              "DeadlineDateLoc": "18.05.2023",
+              "DeadlineTimeLoc": "00:00",
+              "PossiblePenaltySize": 19619
+            },
+            "Cost": 18480,
+            "CostCurrencyName": "RUB",
+            "ArrivalDate": "04.07.2023",
+            "DepartureDate": "08.07.2023",
+            "NumberOfRooms": 1,
+            "NumberOfNights": 4,
+            "Price": 14268,
+            "PriceMeal": 0,
+            "PriceExtraBedAdult": 0,
+            "PriceExtraBedChild": 0,
+            "PriceExtraBedInfant": 0,
+            "PriceEarlyCheckIn": 1784,
+            "PriceEarlyCheckOut": 3567,
+            "PriceExtraMeal": 0,
+            "TotalPrice": 19619,
+            "TravelAgencyCommission": 0
+          },
+          "PlanChanged": {
+            "PenaltyRule": {
+              "DeadlineDateLoc": "18.05.2023",
+              "DeadlineTimeLoc": "00:00",
+              "PossiblePenaltySize": 19619,
+              "IsChangeDeadlineCode": 2,
+              "IsChangeDeadlineName": "Нет"
+            },
+            "Price": 14268,
+            "PriceMeal": 0,
+            "PriceExtraBedAdult": 0,
+            "PriceExtraBedChild": 0,
+            "PriceExtraBedInfant": 0,
+            "PriceEarlyCheckIn": 1784,
+            "PriceEarlyCheckOut": 3567,
+            "PriceExtraMeal": 0,
+            "TotalPrice": 19619,
+            "TravelAgencyCommission": 0
+          },
+          "Fact": {
+            "Cost": 0,
+            "ArrivalDate": "",
+            "DepartureDate": "",
+            "NumberOfRooms": 0,
+            "NumberOfNights": 0,
+            "Price": 0,
+            "PriceMeal": 0,
+            "PriceExtraBedAdult": 0,
+            "PriceExtraBedChild": 0,
+            "PriceExtraBedInfant": 0,
+            "PriceEarlyCheckIn": 0,
+            "PriceEarlyCheckOut": 0,
+            "PriceExtraMeal": 0,
+            "TotalPrice": 0,
+            "TravelAgencyCommission": 0
+          },
+          "Code": 2,
+          "Name": "Нет"
+        },
+        "Id": -99999,
+        "ArrivalDate": "04.07.2023",
+        "ArrivalTime": "00:00",
+        "DepartureDate": "08.07.2023",
+        "DepartureTime": "23:59",
+        "NumberOfNights": 4,
+        "NumberOfRooms": 1,
+        "NumberOfGuests": 1,
+        "NumberOfExtraBedsAdult": 0,
+        "NumberOfExtraBedsChild": 0,
+        "NumberOfExtraBedsInfant": 0,
+        "SupplierInfo": "",
+        "AdditionalInfo": "",
+        "InternalInfo": "",
+        "IgnoreRestriction": "",
+        "ConfirmationNumber": "",
+        "Price": 19619,
+        "IsVAT": 2,
+        "VATIncludedInPrice": 0,
+        "FullVATInPrice": 1,
+        "TravelAgencyCommission": 0,
+        "Penalty": 0,
+        "DeadlineDate": "18.05.2023",
+        "DeadlineTimeLoc": "18.05.2023 00:00",
+        "DeadlineTimeSys": "18.05.2023 00:00",
+        "DeadlineTimeUTC": "17.05.2023 21:00",
+        "PossiblePenaltySize": 19619,
+        "Zip": "",
+        "IsOneSave": 1,
+        "AddField1": "",
+        "AddField2": "",
+        "AllowAddFieldModify": 1
+      }
+    },
+    "PassiveList": "",
+    "TransportList": "",
+    "Id": 0,
+    "RegistrationDate": "",
+    "DeadlineDate": "18.05.2023",
+    "ReferenceNumber": "",
+    "Price": 19619,
+    "TravelAgencyCommission": 0,
+    "Penalty": 0,
+    "TotalAmount": 19619,
+    "PaidAmount": 0,
+    "UnpaidAmount": 19619,
+    "StartDate": "04.07.2023",
+    "EndDate": "08.07.2023",
+    "AdditionalInfo": "",
+    "IsGroundHandlingCode": 2,
+    "IsGroundHandlingName": "Нет",
+    "IsGroundHandlingAllowChange": 1,
+    "UserType": "INNER",
+    "ProfitCentreCode": 30,
+    "SUserCode": 13,
+    "AgentCode": 1350275,
+    "ContractId": 1350276,
+    "ProfitCentreName": "Внутрироссийский маркетинг",
+    "SUserName": "БЕЛОУС С.М.",
+    "AgentName": "ГЕОГРАФИЧЕСКИЙ КЛУБ /АОН",
+    "ContractNumber": "0216/21",
+    "ContractDate": "21.05.2021",
+    "ContactCode": 1006196,
+    "ContactName": "ХРЕНОВА ЛАРИСА",
+    "ContactPhone": "",
+    "ContactMail": "env009_01@dev.acase.ru",
+    "ContactFax": "",
+    "AllowChangeContact": 1,
+    "CustomReferenceName": 2,
+    "ReferenceNumberName": "Ref No",
+    "AddField1Provide": 1,
+    "AddField1Name": "",
+    "AddField2Provide": 1,
+    "AddField2Name": "",
+    "AllowManagePseudoAgents": 2,
+    "CuratorCode": "",
+    "CuratorName": "",
+    "CustomChanged": 1,
+    "BuyerId": "",
+    "UserId": "after",
+    "Password": 1,
+    "Language": "ru",
+    "AutoDefine": 2,
+    "BuyerCode": 1350276
+  }
+}

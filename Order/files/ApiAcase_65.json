@@ -1,0 +1,12 @@
+{			
+	"jsonrpc": "2.0",		
+	"method": "ReservationPull",		
+	"params": {		
+		"systemId": 16,	
+		"systemName": "The best channel manager",	
+		"login": "Bnovo1781",	
+		"password": "14552638BN",	
+		"language": "ru"	
+	},		
+	"id": "1234567"		
+}
