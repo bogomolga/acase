@@ -1,0 +1,19 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Order\new_order.py",
+  "scripts": {
+    "start": "pytest .\Order\new_order.py",
+    "test": "pytest .\Order\new_order_CM.py"
+  },
+  "author": "Brian Hogan",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.5",
+    "@hapi/lab": "^24.4.0"
+  }
+}

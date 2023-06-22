@@ -20,7 +20,7 @@ for fname, lname in cursor:
     print("Values:", fname, lname)
 ##########
     
-with cx_Oracle.connect(user="BO_TEST_99", password="SYS", dsn="10.0.0.137:1521/test") as connection2:
+with cx_Oracle.connect(user="BO_TEST_13", password="SYS", dsn="10.0.0.137:1521/test") as connection2:
     with connection2.cursor() as cursor:
         sql0 = """select sysdate from dual"""
         for r in cursor.execute(sql0):
