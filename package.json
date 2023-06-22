@@ -1,14 +1,14 @@
 {
-  "name": "hello",
+  "name": "test1",
   "version": "1.0.0",
   "description": "",
-  "main": "Order\new_order.py",
+  "main": "Order/new_order.py",
   "scripts": {
-    "start": "pytest .\Order\new_order.py",
-    "test": "pytest .\Order\new_order_CM.py"
+    "start": "python ./Order/new_order.py",
+    "test": "pytest ./Order/new_order_CM.py"
   },
-  "author": "Brian Hogan",
-  "license": "MIT",
+  "author": "Ol",
+  "license": "ACS",
   "dependencies": {
     "@hapi/hapi": "^20.2.1"
   },
