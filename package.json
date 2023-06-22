@@ -4,7 +4,7 @@
   "description": "",
   "main": "Order/new_order.py",
   "scripts": {
-    "start": "python ./Order/new_order.py",
+    "start": "python3 ./Order/new_order.py",
     "test": "pytest ./Order/new_order_CM.py"
   },
   "author": "Ol",
