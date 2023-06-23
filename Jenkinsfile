@@ -1,8 +1,14 @@
-#!/usr/bin/env python3
+#!/usr/bin/env bash
 
 pipeline {
 
-    agent any
+    agent {
+        docker {
+            image 'python3'
+            args '-u root'
+        }
+    }
+
     stages {
         stage('Test') {
             steps {
