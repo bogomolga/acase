@@ -7,6 +7,12 @@ pipeline {
        }
     }
     stages {
+        stage('Env install') {
+            steps {
+                echo 'Env installing...'
+                sh 'pip install --no-cache-dir -r requirements.txt'
+                }
+        }
         stage('Test') {
             steps {
                 echo 'Testing...'
