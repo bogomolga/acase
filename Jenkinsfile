@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
 pipeline {
-
+    agent {
+         node {
+          label 'TestNode' 
+       }
+    }
     stages {
         stage('Test') {
             steps {
