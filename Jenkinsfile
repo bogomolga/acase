@@ -3,7 +3,7 @@
 pipeline {
     agent {
          node {
-          label 'TestNode' 
+          label 'Built-In' 
        }
     }
     stages {
